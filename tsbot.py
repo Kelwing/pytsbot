@@ -42,7 +42,7 @@ def bot_main(ts3conn):
                     if nick == "SAY WHAT":
                         ts3conn.clientpoke(clid=event[0]["clid"], msg="I SWEAR TO GOD, TIM")
                     if nick == "Chaosthecrow":
-                        ts3conn.clientpoke(clid=event[0]["clid"], msg="Whore")
+                        ts3conn.clientpoke(clid=event[0]["clid"], msg="")
                     if dbinfo[0]['client_totalconnections'] == "1":
                         print("Client {} has joined for the first time.".format(event[0]['client_nickname']))
                         ts3conn.clientpoke(clid=event[0]["clid"], msg="Welcome to the KelnetGaming TS3 server. You move, you must be promoted. Poke an admin to get promoted.")
